@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>WDD 231</title>
-</head>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Solomon John Ekaette | WDD 231</title>
+    <meta name="description" content="WDD 231 - Dynamic WebEnd Development- Solomon John Ekaette - Home Page">
+    <meta name="author" content="Solomon John Ekaette">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/scripts.js" defer></script>
+  </head>
+
 <body>
-    <h1>John Solomon Ekaette</h1>
+
+  <header>
+    <div class="site-header">
+      <div class="logo">
+        <div class="logo-img">✉️</div>
+        <span>Student Portal</span>
+      </div>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+
+    <nav id="mainNav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber Project</a></li>
+        <li><a href="#">Final Project</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Home</h1>
+
+    <section class="about-student">
+      <div class="about-me">
+        <h2>About Me</h2>
+        <p>
+          Hello, my name is Solomon John Ekaette and i am from Nigeria. I enjoy reading books and listening to music
+          and playing football. I am a BYU pathway student currently studying software development. I believe one of 
+          the ways to improve our future is to intentionally embrace technology and find ways to implement it in our 
+          various works of life. I believe my current study of my degree program will go a long way in shaping my future
+          and help me in my path of becoming self reliant both temporarily and spiritually.
+        </p>
+      </div>
+
+      <div class="student-photo">
+        <h2>Student Photo</h2>
+        <div class="profile">
+          <img src="images/profile.jpg" alt="Solomon" width="200">
+        </div>
+      </div>
+      
+    </section>
+
+    <section class="courses">
+      <h2>Web Certificate Courses</h2>
+      <div class="filters">
+        <button onclick="filterCourses('all')">All</button>
+        <button onclick="filterCourses('cse')">CSE</button>
+        <button onclick="filterCourses('wdd')">WDD</button>
+      </div>
+      <div class="course-list">
+        <div class="course" data-category="wdd">WDD 130</div>
+        <div class="course" data-category="cse">WDD 131</div>
+        <div class="course" data-category="wdd">WDD 231</div>
+      </div>
+      <p class="total-credits">The total credits for course listed above is 6</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <nav class="sociallinks">
+        <a href="https://facebook.com">
+          <img src="images/facebook.jpg" alt="Facebook" width="50">
+        </a>
+        <a href="https://twitter.com">
+          <img src="images/twitter.jpg" alt="Twitter" width="50">
+        </a>
+        <a href="https://instagram.com">
+          <img src="images/instagram.jpg" alt="Instagram" width="50">
+        </a>
+        <a href="https://github.com/solab59-pro">
+          <img src="images/github.png" alt="Instagram" width="50">
+        </a>
+      </nav>
+      <p>
+        ©
+        <span id="currentyear">2025</span>
+        🌴Solomon John Ekaette 🌴 Akwa Ibom State
+      </p>
+      <p>
+        Last Modified :
+        <span id="lastModified">Sat April 07 2025 12:25:07 GMT+1</span>
+      </p>
+
+    </div>
+  </footer>
+
 </body>
+
 </html>
