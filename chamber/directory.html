@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Empowering Evergreen City businesses with tools, networking, and support to thrive in a dynamic local economy. Join our growing community.">
+  <meta name="author" content="Evergreen City Chamber of Commerce">
+  <title>Evergreen City Chamber of Commerce | Business Directory</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Evergreen City Chamber of Commerce">
+  <meta property="og:description"
+    content="Empowering Evergreen City's local businesses with resources, connections, and growth opportunities.">
+  <meta property="og:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+  <meta property="og:url" content="https://solab59-pro.io/wdd231/chamber/directory.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Evergreen City Chamber of Commerce">
+  <meta name="twitter:description"
+    content="Discover opportunities, build connections, and grow your business within a vibrant local network.">
+  <meta name="twitter:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+
+  <link rel="icon" href="images/favicon.png" type="image/png" width="16" height="16">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+
+  <!-- Scripts -->
+  <script src="scripts/scripts.js" defer></script>
+  <script src="scripts/toggleview.js" defer></script>
+
+  <meta name="theme-color" content="#3f80ff">
+</head>
+
+<body class="chamber-directory">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header>
+    <div class="header-container">
+      <!-- Logo and Text -->
+      <div class="header-logo">
+        <img src="images/evergreen_city_logo.jpg" alt="Evergreen City Chamber Logo" width="150" height="50" loading="lazy">
+        <div class="logo-text">
+          <span class="main-text">Evergreen City</span><br>
+          <span class="sub-text">Chamber of Commerce</span>
+        </div>
+      </div>
+
+      <!-- Hamburger for Mobile -->
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false"
+        aria-controls="primaryNav">
+        ☰
+      </button>
+
+      <nav id="primaryNav" aria-label="Primary navigation" role="navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="directory.html" class="active" aria-current="page">Business Directory</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="discover.html">Discover</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <!-- Hero Banner Section -->
+    <section class="hero-banner" aria-label="Introduction to Chamber Business Directory">
+      <div class="hero-image-overlay">
+        <img src="images/evergreen1.jpeg" alt="Evergreen City skyline view" class="hero-image">
+        <div class="hero-text-content">
+          <h1 class="hero-heading">Explore the Future with Us</h1>
+          <p class="hero-subtext">Connecting local businesses under one stellar network.</p>
+          <h2 class="hero-title">Chamber of Commerce Directory</h2>
+          <p class="hero-description">
+            Your one-stop source for discovering local businesses and organizations that contribute to our vibrant
+            community.
+            Browse by category or search for specific listings to find the right services and opportunities near you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- View Toggle Buttons -->
+    <section class="view-toggle" aria-label="Toggle between grid and list views">
+      <div class="view-toggle-buttons">
+        <button id="gridBtn" aria-pressed="true">Grid View</button>
+        <button id="listBtn" aria-pressed="false">List View</button>
+      </div>
+    </section>
+
+    <!-- Directory Search Section -->
+    <section class="directory-search" aria-label="Search the business directory">
+      <div class="container">
+        <h2>Directory Search</h2>
+        <input type="text" id="search-input" placeholder="Type Keywords..." aria-label="Search businesses" />
+        <div class="categories">
+          <span>Popular Categories:</span>
+          <ul>
+            <li><a href="#">Healthcare</a></li>
+            <li><a href="#">Real Estate</a></li>
+            <li><a href="#">Food & Beverages</a></li>
+            <li><a href="#">Hospitality</a></li>
+            <li><a href="#">Design & Consulting</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section>
+    <div class="directory-content grid-view" id="directoryContent">
+      <div class="directory-section">
+
+        <!-- Healthcare -->
+        <h2 class="directory-category-title">Healthcare</h2>
+        <div class="directory-category-row grid-view">
+          <!-- Business Cards for Healthcare -->
+          <div class="business-card">
+            <h3>Zuma Smart Care</h3>
+            <p><strong>Gold Member</strong></p>
+            <p>856, Olu Awotesu Street,Jabi Abuja</p>
+            <p>Phone: (234) 08140000653</p>
+            <p>Improve access to affordable and efficient healt care, service through promotion of best practices in clinical governance, patient care, social health insurance and operational research for health.</p>
+            <img src="images/zuma1.jpg" alt="Zuma Smart Care" class="business-image">
+            <a href="https://zumahealthtrust.ng" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>District Healthcare Services</h3>
+            <p><strong>Silver Member</strong></p>
+            <p>1445 Howard Rd SE, Washington, DC 20020</p>
+            <p>Phone: (202) 894-6811</p>
+            <p>District Health Care Services provides health care for the whole person. We are a community care provider offering a
+            suite of services to meet your medical, behavioral health, human services, and spiritual needs.</p>
+            <img src="images/dhcs.webp" alt="District Healthcare Services" class="business-image">
+            <a href="https://districthealthcareservices.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Manzil Health Care Services</h3>
+            <p><strong>Bronze Member</strong></p>
+            <p>Office 114, Dubai Supreme Court Complex, Umm Hurair 2, Dubai, United Arab Emirates</p>
+            <p>Phone: +971 800 626945 </p>
+            <p>Manzil Healthcare Services is a leader in delivering healthcare excellence at your doorstep. We aspire to fulfill our
+            mission and vision in transforming you and your family’s health through high quality, technology-enabled,
+            multidisciplinary care wherever you are.</p>
+            <img src="images/manzil_healthcare.png" alt="Manzil Health Care Services" class="business-image">
+            <a href="https://manzilhealth.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+        <!-- Real Estate -->
+        <h2 class="directory-category-title">Real Estate</h2>
+        <div class="directory-category-row">
+          <div class="business-card">
+            <h3>DradRock Real Estate</h3>
+            <p><strong>Gold Member</strong></p>
+            <p>Elf Bus Stop, Hakeem Dickson Link Rd, Lekki.</p>
+            <p>Phone: (234) 0810 6165 750</p>
+            <p>Dradrock Real Estate is a top real estate company offering expert property marketing, consulting, and development
+            services to a wide range of clients in both the residential and commercial property sectors.</p>
+            <img src="images/dradrock.png" alt="DradRock Real Estate Limited" class="business-image">
+            <a href="https://dradrockng.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Mshel Homes</h3>
+            <p><strong>Silver Member</strong></p>
+            <p>The Mshel Hub, No. 2 Julius Adelusi Street, Guzape, Abuja.</p>
+            <p>Phone: (234) 08104444229</p>
+            <p>At Mshel Homes, we are dedicated to turning real estate dreams into reality. Our passion for quality craftsmanship and
+            personalized designs ensures every home depicts comfort and style..</p>
+            <img src="images/mshel_homes.png" alt="Mshel Homes" class="business-image">
+            <a href="https://mshelhomes.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Dutum Group Real Estate Company</h3>
+            <p><strong>Bronze Member</strong></p>
+            <p>321 Metro Ave, San Diego, CA 92103</p>
+            <p>Phone: (619) 123-9876</p>
+            <p>Dutum is a world-class engineering and construction company with a reputation for technical excellence founded on more
+            than 20 years of experience. We are a construction company in Lagos operating across all Nigeria States and Africa..</p>
+            <img src="images/dutum.jpg" alt="Dutum Group" class="business-image">
+            <a href="https://dutumgroup.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Food & Beverage -->
+        <h2 class="directory-category-title">Food & Beverage</h2>
+        <div class="directory-category-row">
+          <div class="business-card">
+            <h3>Fresh Made Delights</h3>
+            <p><strong>Gold Member</strong></p>
+            <p>789 Kotal street, Ikorodu Lagos state</p>
+            <p>Phone: (234) 09058934033 </p>
+            <p>At FreshMade Delights, we believe that food is best when its simple, fresh, and made with care. We are a proudly local
+            food company dedicated to preparing freshly made meals every single day — using only natural ingredients, no
+            preservatives, and a whole lot of heart.</p>
+            <img src="images/fresh_made_food.jpeg" alt="Fresh Made Food" class="business-image">
+            <a href="https://www.freshmadefood.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Solab Food and Beverages</h3>
+            <p><strong>Silver Member</strong></p>
+            <p>11 Kadiri street, Coker, Logos</p>
+            <p>Phone: (234) 08038158586</p>
+            <p>Solab Food & Beverage Company is a dynamic and innovative enterprise committed to delivering high-quality food and
+            beverage products that nourish, delight, and inspire. With a passion for excellence and a customer-first approach, we
+            strive to set the standard for taste, safety, and sustainability in the industry.</p>
+            <img src="images/solab.jpg" alt="Solab Food and Beverages" class="business-image">
+            <a href="https://www.solabcompany.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Ufo Burger and Chicken</h3>
+            <p><strong>Bronze Member</strong></p>
+            <p>4 Imam Street, Amukoko, Lagos State</p>
+            <p>Phone: (234) 08036328933</p>
+            <p>At Ufo Burger & Chicken, we bring bold flavor, unbeatable freshness, and fast, friendly service to every meal. We're
+            your go-to destination for mouthwatering burgers, crispy chicken, and refreshing beverages — all made with passion,
+            quality ingredients, and a commitment to satisfaction.</p>
+            <img src="images/ufo_burger_and_chicken.jpeg" alt="Ufo Burger and Chicken" class="business-image">
+            <a href="https://www.ufoburgerandchicken.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Hospitality -->
+        <h2 class="directory-category-title">Hospitality</h2>
+        <div class="directory-category-row">
+          <div class="business-card">
+            <h3>Eko Hotel And Suites</h3>
+            <p><strong>Gold Member</strong></p>
+            <p>Plot 1415 Adetokunbo Ademola Street, PMB 12724, Victoria Island, Lagos Nigeria</p>
+            <p>Phone: (234) 09092772700</p>
+            <p>At Eko Hotel and Suites, we offer our clients a perfect blend of business & leisure amenities with dining and recreational options delicately
+            infused in one amazing space. We crown all these with services that meet the highest international standards.</p>
+            <img src="images/eko_hotels.jpeg" alt="Eko Hotel and Suites" class="business-image">
+            <a href="https://www.ekohotels.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>The Providence Hotel</h3>
+            <p><strong>Platinum Member</strong></p>
+            <p>12A Oba Akinjobi Way, GRA Ikeja, Lagos</p>
+            <p>Phone: (234) 2014623200</p>
+            <p>The Providence Hotel is a 5-star hotel in Ikeja, Government Reserved Area, Lagos. The understated luxury and class are
+            complimented by the exceptional service on offer.</p>
+            <img src="images/the_providence.jpeg" alt="The Providence Hotel" class="business-image">
+            <a href="https://providencelagos.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Sheraton Hotel</h3>
+            <p><strong>Silver Member</strong></p>
+            <p>Springfield Massachussetts</p>
+            <p>Phone: (01) 555-55959</p>
+            <p>Sheraton Hotels, a globally recognized brand under Marriott International, is committed to delivering exceptional
+            hospitality experiences that blend comfort, convenience, and cultural richness. With a legacy spanning over 80 years,
+            Sheraton remains a trusted name for both business and leisure travelers worldwide.</p>
+            <img src="images/sheraton.png" alt="Sheraton Hotel" class="business-image">
+            <a href="https://sheraton.marriott.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+
+        <!-- Design & Consulting -->
+        <h2 class="directory-category-title">Design & Consulting</h2>
+        <div class="directory-category-row">
+          <div class="business-card">
+            <h3>Gales Design And Consulting</h3>
+            <p><strong>Gold Member</strong></p>
+            <p>404 Creative Way, San Diego, CA 92101</p>
+            <p>Phone: (01) 555-8869</p>
+            <p class="description">At Gales Design & Consulting, we combine expert project design, meticulous planning, and effective construction
+            management with a deep understanding of your priorities to ensure a seamless experience from start to finish. Trust us
+            to handle the details, so you can focus on what matters most to you, taking care of your business</p>
+            <img src="images/gales_desing.png" alt="Gales Design And Consulting" class="business-image">
+            
+            <a href="https://galesdesign.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+
+          <div class="business-card">
+            <h3>Hipp Design And Consulting</h3>
+            <p><strong>Silver Member</strong></p>
+            <p>2301 Rexwoods Drive Suite 200 Raleigh, NC 27607</p>
+            <p>Phone: 855-336-8439</p>
+            <p>At HIPP, we continuously raise the bar by applying innovative processes, checks and balances, and the latest technology
+            to each and every project. Our professionals are provided with the leadership, time, equipment, and training necessary
+            to ensure that this is possible</p>
+            <img src="images/hipp.png" alt="Hipp Design And Consulting" class="business-image">
+            <a href="https://www.hipp-usa.com/" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+          
+          <div class="business-card">
+            <h3>Leadship Design And Consulting</h3>
+            <p><strong>Bronze Member</strong></p>
+            <p>123 Summit St, Oceanside, CA 92054</p>
+            <p>Phone: (01) 555-4321</p>
+            <p>Our services go beyond design to offer total support from our consultants and on-site team, ensuring the smoothest
+            outcome for even the most demanding projects and partners</p>
+            <img src="images/leadship.png" alt="Leadship Design And Consulting" class="business-image">
+            <a href="https://www.leadship.com" target="_blank" rel="noopener noreferrer">Visit Website</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <section>
+
+      <footer>
+        <div class="social-icons">
+          <nav class="sociallinks"></nav>
+          <a href="https://facebook.com">
+            <img src="images/facebook.jpg" alt="Facebook" width="50">
+          </a>
+          <a href="https://twitter.com">
+            <img src="images/twitter.jpg" alt="Twitter" width="50">
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/instagram.jpg" alt="Instagram" width="50">
+          </a>
+          <a href="https://github.com/solab59-pro">
+            <img src="images/github.png" alt="Instagram" width="50">
+          </a>
+          </nav>
+          <p class="footer-text">© 2025 Evergreen City Chamber of Commerce. All rights reserved.<br>
+            Last updated: 07/22/2025 10:49:36</p>
+          <!-- <p>&copy; <span id="year"></span> Evergreen City Chamber of Commerce. All rights reserved.</p>
+      <p>Last updated: <span id="last-modified"></span></p> -->
+        </div>
+      </footer>
+      <script>
+        // ==============================
+        // Toggle View Buttons
+        // ==============================
+        const gridBtn = document.getElementById('gridBtn');
+        const listBtn = document.getElementById('listBtn');
+        const categoryRows = document.querySelectorAll('.directory-category-row');
+
+        function setView(view) {
+          categoryRows.forEach(row => {
+            row.classList.toggle('grid-view', view === 'grid');
+            row.classList.toggle('list-view', view === 'list');
+          });
+
+          gridBtn.setAttribute('aria-pressed', view === 'grid');
+          listBtn.setAttribute('aria-pressed', view === 'list');
+        }
+
+        gridBtn.addEventListener('click', () => setView('grid'));
+        listBtn.addEventListener('click', () => setView('list'));
+
+        // ==============================
+        // Load and Display Members
+        // ==============================
+        const container = document.getElementById('membersContainer'); 
+      </script>
+      <script>
+        // Footer Year and Last Modified Script
+        document.getElementById('year').textContent = new Date().getFullYear();
+        document.getElementById('last-modified').textContent = document.lastModified;
+      </script>
+
+      <script>
+        // Highlight the link that matches the current page URL
+        const currentPage = window.location.pathname.split("/").pop();
+        const navLinks = document.querySelectorAll(".nav-menu a");
+
+        navLinks.forEach(link => {
+          if (link.getAttribute("href") === currentPage) {
+            link.classList.add("active");
+          }
+        });
+      </script>
+</body>
+
+</html>
