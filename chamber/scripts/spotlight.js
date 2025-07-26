@@ -2,33 +2,33 @@ const spotlightContainer = document.querySelector('.spotlight-container');
 
 const members = [
   {
-    companyName: "Alpha Tech Solutions",
-    logo: "images/tech.jpg",  // updated path
-    phone: "555-1234",
-    address: "123 Tech St, Crescent City",
-    website: "https://alphatech.ws",
+    companyName: "Alpha Marketing Solutions",
+    logo: "images/alpha_marketing.jpeg",  // updated path
+    phone: "(234) 08055818160",
+    address: "1 Alpha Street, Ikorodu Lagos",
+    website: "https://www.alphamarketsolutions.com/",
     membershipLevel: "Gold"
   },
   {
-    companyName: "Beta Builders",
-    logo: "images/betta_builder.jpg",  // updated path
-    phone: "555-5678",
-    address: "456 Build Rd, Crescent City",
-    website: "https://bettabuilder.ng",
+    companyName: "Beta World With Ai",
+    logo: "images/beta_world_with_ai.jpg",  // updated path
+    phone: "(234) 09058934035",
+    address: "11, Kadiri Street, Coker, Orile, Lagos",
+    website: "https://betaworldwithai.com",
     membershipLevel: "Silver"
   },
   {
-    companyName: "Gamma Marketing",
-    logo: "images/gamma.webp",  // updated path
-    phone: "555-9012",
-    address: "789 Market Ave, Crescent City",
-    website: "https://gammamarketing.com",
-    membershipLevel: "Gold"
+    companyName: "Gamma Supermarket And Store ",
+    logo: "images/gamma.jpg",  // updated path
+    phone: "(234) 08036325089",
+    address: "123 Olodi Apapa Road, Ikeja Lagos",
+    website: "https://gammasupermarketandstore.com",
+    membershipLevel: "Bronze"
   },
 ];
 
 // Filter only Gold and Silver members
-const goldSilverMembers = members.filter(m => m.membershipLevel === "Gold" || m.membershipLevel === "Silver");
+const goldSilverMembers = members.filter(m => m.membershipLevel === "Gold" || m.membershipLevel === "Silver" || m.membershipLevel === "Bronze");
 
 // Randomly shuffle and pick 6 members max
 function getRandomSpotlights(arr, num = 6) {

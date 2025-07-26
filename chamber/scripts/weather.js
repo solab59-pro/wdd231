@@ -1,5 +1,5 @@
-const apiKey = '1e8c17a9d8864e285b79664791782aa3'; // Your API key
-const city = 'Surulere, Lagos';
+const apiKey = '5720cdfeef81c92816a281a230530ede'; // Your API key
+const city = 'Ikorodu, Lagos';
 
 const weatherDiv = document.getElementById('weather');      // current weather container
 const forecastDiv = document.getElementById('forecast');    // forecast cards container
