@@ -1,0 +1,65 @@
+<!-- scripted dialogue with json temple data b -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Lab Start File">
+  <meta name="author" content="Paul Cheney">
+
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/large.css">
+
+  <title>Web Lab Start File</title>
+</head>
+
+<body>
+  <header>
+    <span>Company Name Here</span>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+      <li><a href="#">Menu Item</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>Page Title Here</h1>
+	<div id="showHere"></div>
+	
+    <!-- One single dialog for all temples -->
+    <dialog id="mydialog">
+      <div>
+        <h2>Sample Title</h2>
+        <button>X</button>
+      </div>
+      <p></p>
+    </dialog>
+
+<!-- for this code the will be five query selector to be use
+ const showHere = document.querySelector("#showHere")
+ const mydialog = document.querySelector("#mydialog")
+ const mytitle = document.querySelector("#mydialog h2")
+const myclose = document.querySelector("#mydialog button")
+const myinfo = document.querySelector("#mydialog p")
+  -->
+
+<!-- then we will need one addListener
+ myclose.addEventListener("click", () => {
+    mydialog.close()); -->
+
+
+  </main>
+
+  <footer>
+    <p>&copy; Web Labs</p>
+  </footer>
+
+  <script src="js/scripts.js" type="module"></script>
+</body>
+</html>

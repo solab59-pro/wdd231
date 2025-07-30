@@ -2338,3 +2338,16 @@ img {
     left: -9999px;
   }
 }
+
+ #results {
+   background-color: #F4F1DE;
+   padding: 0 1rem;
+   border: 1px solid #E07A5F;
+   border-radius: 6px;
+ }
+
+
+.membership-card {
+  text-align: center;
+}
+
