@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ✅ Use relative path so it works on any device or environment
-  fetch('https://solab59-pro.github.io/wdd231/chamber/discover.json')
+  fetch('https://impulsible.github.io/wdd231/chamber/discover.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);

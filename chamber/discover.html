@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Explore the vibrant attractions and demographics of Evergreen City. Discover what makes our community unique.">
+    <meta name="author" content="Evergreen City Chamber of Commerce">
+    <title>Evergreen City Chamber of Commerce | Discover</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Discover Crescent City">
+    <meta property="og:description"
+        content="Explore the vibrant attractions and demographics of Crescent City. Discover what makes our community unique.">
+    <meta property="og:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+    <meta property="og:url" content="https://solab59-pro.github.io/wdd231/chamber/discover.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Discover Crescent City">
+    <meta name="twitter:description"
+        content="Explore the vibrant attractions and demographics of Crescent City. Discover what makes our community unique.">
+    <meta name="twitter:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&amp;display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/medium.css" media="(min-width: 641px)">
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)">
+    <script src="scripts/visittracker.js" defer=""></script>
+    <script src="scripts/discover.js" defer=""></script>
+</head>
+
+<body class="discover-page">!-- Scripts --&gt;
+    <script src="scripts/scripts.js" defer=""></script>
+    <script src="scripts/toggleview.js" defer=""></script>
+    <script src="scripts/weather.js" defer=""></script>
+    <script src="scripts/spotlight.js" defer=""></script>
+    <script src="scripts/forecast.js" defer=""></script>
+
+    <meta name="theme-color" content="#3f80ff">
+
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="header-container">
+            <div class="header-logo">
+                <img src="images/evergreen_city_logo.jpg" alt="EVergreen City Chamber Logo" width="150" height="50"
+                    loading="lazy">
+                <div class="logo-text">
+                    <span class="main-text">Evergreen City</span><br>
+                    <span class="sub-text">Chamber of Commerce</span>
+                </div>
+            </div>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="primaryNav">☰</button>
+
+            <nav id="primaryNav" aria-label="Primary navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="directory.html">Business Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html" class="active" aria-current="page">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ✅ Only ONE <main> -->
+    <main id="main-content" tabindex="-1">
+        <section class="hero-banner" aria-label="Discover Evergreen City">
+            <img src="images/evergreen1.jpeg" alt="Evergreen City sky view" class="hero-image" width="1200" height="675"
+                loading="lazy">
+            <div class="hero-text-content">
+                <h1>Discover Evergreen City</h1>
+                <h2 class="subheading">Explore Our Community</h2>
+                <p>Learn about the attractions, demographics, and unique features that make Crescent City a great place
+                    to live and work.</p>
+            </div>
+        </section>
+
+        <!-- ✅ Sidebar message -->
+        <aside id="visit-message" class="soon">✨ Back so soon? Awesome!</aside>
+
+        <!-- ✅ Discover container section -->
+        <section class="discover-container">
+            <article class="card card1">
+                <h2>Wild Life Safari Park</h2>
+                <figure>
+                    <img src="images/dradrock.png" alt="Wild Life Safari Park" loading="lazy">
+                </figure>
+                <address>456 Safari Park Blvd, Crescent City</address>
+                <p>A unique park experience featuring walking trails through natural habitats, exotic animals, and
+                    guided safari tours for families and nature enthusiasts.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card2">
+                <h2>Downtown Farmers Market</h2>
+                <figure>
+                    <img src="images/premium3.webp" alt="Downtown Farmers Market" loading="lazy">
+                </figure>
+                <address>789 Market St, Crescent City</address>
+                <p>Enjoy fresh produce, local crafts, and live music every weekend at the heart of the city.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card3">
+                <h2>Artisan Coffee House</h2>
+                <figure>
+                    <img src="images/photo2.webp" alt="Artisan Coffee House" loading="lazy">
+                </figure>
+                <address>654 Brew Lane, Crescent City</address>
+                <p>A cozy spot to enjoy locally roasted coffee and pastries, featuring works by local artists.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card4">
+                <h2>Greenwood Garden</h2>
+                <figure>
+                    <img src="images/premium1.webp" alt="Greenwood Garden" loading="lazy">
+                </figure>
+                <address>987 Flora Rd, Crescent City</address>
+                <p>Stroll through beautifully curated gardens showcasing native and exotic plant species.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card5">
+                <h2>Seaside Art Walk</h2>
+                <figure>
+                    <img src="images/premium2.webp" alt="Seaside Art Walk" loading="lazy">
+                </figure>
+                <address>412 Coastal Blvd, Crescent City</address>
+                <p>Explore outdoor murals and sculptures from local artists along this scenic coastal path.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card6">
+                <h2>Harborview Skate Park</h2>
+                <figure>
+                    <img src="images/photo5.webp" alt="Harborview Skate Park" loading="lazy">
+                </figure>
+                <address>202 Grind St, Crescent City</address>
+                <p>A popular spot for skaters and bikers, featuring ramps, rails, and graffiti art.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card7">
+                <h2>Historic Train Station</h2>
+                <figure>
+                    <img src="images/photo6.webp" alt="Historic Train Station" loading="lazy">
+                </figure>
+                <address>123 Heritage Ave, Crescent City</address>
+                <p>Step back in time at this beautifully restored train station showcasing vintage locomotives and
+                    artifacts, a favorite spot for history buffs and families alike.</p>
+                <button type="button">Learn More</button>
+            </article>
+            <article class="card card8">
+                <h2>Folk Dance Pavilion</h2>
+                <figure>
+                    <img src="images/photo7.webp" alt="Folk Dance Pavilion" loading="lazy">
+                </figure>
+                <address>77 Festival Road, Crescent City</address>
+                <p>Enjoy lively performances of traditional dances and music in this vibrant pavilion that celebrates
+                    the city’s cultural heritage.</p>
+                <button type="button">Learn More</button>
+            </article>
+        </section>
+
+
+        <footer>
+            <div class="social-icons">
+                <nav class="sociallinks"></nav>
+                <a href="https://facebook.com">
+                    <img src="images/facebook.jpg" alt="Facebook" width="50">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.jpg" alt="Twitter" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.jpg" alt="Instagram" width="50">
+                </a>
+                <a href="https://github.com/solab59-pro">
+                    <img src="images/github.png" alt="Instagram" width="50">
+                </a>
+                </nav>
+                <p class="footer-text">© 2025 Evergreen City Chamber of Commerce. All rights reserved.<br>
+                    Last updated: 07/22/2025 10:49:36</p>
+                <!-- <p>&copy; <span id="year"></span> Evergreen City Chamber of Commerce. All rights reserved.</p>
+              <p>Last updated: <span id="last-modified"></span></p> -->
+            </div>
+        </footer>
+
+        <!-- ✅ Inline JS only for minor dynamic content -->
+        <script>
+            document.getElementById("year").textContent = new Date().getFullYear();
+            document.getElementById("last-modified").textContent = document.lastModified;
+
+            const currentPage = window.location.pathname.split("/").pop();
+            document.querySelectorAll(".nav-menu a").forEach((link) => {
+                if (link.getAttribute("href") === currentPage) {
+                    link.classList.add("active");
+                }
+            });
+        </script>
+
+
+    </main>
+</body>
+
+</html>
