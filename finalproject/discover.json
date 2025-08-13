@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Wild Life Safari Park",
+        "image": "images/images1.jpeg",
+        "address": "456 Safari Park Blvd, Evergreen City",
+        "description": "A unique park experience featuring walking trails through natural habitats, exotic animals, and guided safari tours for families and nature enthusiasts."
+    },
+    {
+        "title": "Downtown Farmers Market",
+        "image": "images/images2.jpeg",
+        "address": "789 Market St, Evergreen City",
+        "description": "Enjoy fresh produce, local crafts, and live music every weekend at the heart of the city."
+    },
+    {
+        "title": "Artisan Coffee House",
+        "image": "images/images3.webp",
+        "address": "654 Brew Lane, Evergreen City",
+        "description": "A cozy spot to enjoy locally roasted coffee and pastries, featuring works by local artists."
+    },
+    {
+        "title": "Greenwood Garden",
+        "image": "images/images4.jpeg",
+        "address": "987 Flora Rd, Evergreen City",
+        "description": "Stroll through beautifully curated gardens showcasing native and exotic plant species."
+    },
+    {
+        "title": "Seaside Art Walk",
+        "image": "images/images5.jpeg",
+        "address": "412 Coastal Blvd, Evergreen City",
+        "description": "Explore outdoor murals and sculptures from local artists along this scenic coastal path."
+    },
+    {
+        "title": "Harborview Skate Park",
+        "image": "images/images6.webp",
+        "address": "202 Grind St, Evergreen City",
+        "description": "A popular spot for skaters and bikers, featuring ramps, rails, and graffiti art."
+    },
+    {
+        "title": "Historic Train Station",
+        "image": "images/images7.jpeg",
+        "address": "123 Heritage Ave, Evergreen City",
+        "description": "Step back in time at this beautifully restored train station showcasing vintage locomotives and artifacts, a favorite spot for history buffs and families alike."
+    },
+    {
+        "title": "Folk Dance Pavilion",
+        "image": "images/images8.jpeg",
+        "address": "77 Festival Road, Evergreen City",
+        "description": "Enjoy lively performances of traditional dances and music in this vibrant pavilion that celebrates the city’s cultural heritage."
+    }
+]

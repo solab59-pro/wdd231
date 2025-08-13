@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Empowering Evergreen City businesses with tools, networking, and support to thrive in a dynamic local economy. Join our growing community.">
+  <meta name="author" content="Evergreen City Chamber of Commerce">
+  <title>Evergreen City Chamber of Commerce | Home</title>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Evergreen City Chamber of Commerce">
+  <meta property="og:description"
+    content="Empowering Evergreen City's local businesses with resources, connections, and growth opportunities.">
+  <meta property="og:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+  <meta property="og:url" content="https://solab59-pro.io/wdd231/chamber/index.html">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Evergreen City Chamber of Commerce">
+  <meta name="twitter:description"
+    content="Discover opportunities, build connections, and grow your business within a vibrant local network.">
+  <meta name="twitter:image" content="https://solab59-pro.github.io/wdd231/chamber/images/evergreen1.jpeg">
+
+  <link rel="icon" href="images/favicon.png" type="image/png" width="16" height="16">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
+
+
+  <!-- Scripts -->
+  <script src="scripts/scripts.js" defer></script>
+  <script src="scripts/toggleview.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlight.js" defer></script>
+  <script src="scripts/forecast.js" defer></script>
+
+  <meta name="theme-color" content="#3f80ff">
+</head>
+
+<body class="chamber-home">
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header>
+  <div class="header-container">
+    <!-- Logo and Text -->
+    <div class="header-logo">
+      <img src="images/evergreen_city_logo.jpg" alt="Evergreen City Chamber Logo" width="150" height="50" loading="lazy">
+      <div class="logo-text">
+        <span class="main-text">Evergreen City</span><br>
+        <span class="sub-text">Chamber of Commerce</span>
+      </div>
+    </div>
+
+    <!-- Hamburger for Mobile -->
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primaryNav">
+      ☰
+    </button>
+
+    <!-- Navigation -->
+    <nav id="primaryNav" aria-label="Primary navigation" role="navigation">
+      <ul class="nav-menu">
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="directory.html">Business Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  <main id="main-content" tabindex="-1">
+    <section class="hero-banner" aria-label="Welcome to Evergreen City Chamber of Commerce">
+      <img src="images/evergreen1.jpeg" alt="Evergreen City view" class="hero-image" width="1200" height="675" loading="lazy">
+      <div class="hero-text-content">
+        <h1>Welcome to Evergreen City</h1>
+        <h2 class="subheading">Chamber of Commerce</h2>
+        <p>Empowering our local businesses through connection, resources, and growth opportunities.</p>
+        <a href="join.html" class="btn-primary" aria-label="Join the Evergreen City Chamber of Commerce">Join the Chamber</a>
+      </div>
+    </section>
+
+    <div class="cards-container">
+      <!-- Upcoming Events -->
+      <section class="card events-card" aria-label="Upcoming events">
+        <h2>Upcoming Events</h2>
+        <ul class="events-list">
+          <li>
+            <strong>Business Networking Mixer</strong> - July 30, 2025 at 5:00 PM<br>
+            Join local entrepreneurs for an evening of networking and business growth.
+          </li>
+          <li>
+            <strong>Annual Global Summit</strong> - August 5, 2025 at 6:00 PM<br>
+            Attend conference and get to interact with like minds as people from all over the globe come together to discuss sustainable development and business strategies .
+          </li>
+          <li>
+            <strong>Small and Medium Entrepreneurs Business Workshop Series</strong> - Every Saturday in August at 4:00 PM<br>
+            Free workshops for all small and medium entrepreneurs. Come learn how to grow your business
+          </li>
+        </ul>
+      </section>
+
+      <!-- Current Weather -->
+      <section id="current-weather" class="card current-weather-card" aria-labelledby="current-weather-title">
+        <h2 id="current-weather-title">Current Weather</h2>
+        <div id="weather" class="weather-details">
+          <img src="https://openweathermap.org/img/wn/01d@2x.png" alt="Sunny weather icon" class="weather-icon" width="70" height="70" loading="lazy">
+        </div>
+      </section>
+
+      <!-- Weather Forecast -->
+      <section id="weather-forecast" class="card forecast-card" aria-labelledby="forecast-title">
+        <h2 id="forecast-title">3-Day Forecast</h2>
+        <div id="forecast" class="forecast-cards">
+          <!-- JS inserts forecast cards here -->
+        </div>
+      </section>
+    </div>
+
+    <!-- Member Spotlights -->
+    <section id="member-spotlights" aria-labelledby="spotlight-title">
+      <h2 id="spotlight-title">Member Spotlights</h2>
+      <div class="spotlight-container" role="list">
+        <!-- Spotlight cards dynamically inserted here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <nav class="sociallinks"></nav>
+      <a href="https://facebook.com">
+        <img src="images/facebook.jpg" alt="Facebook" width="50">
+      </a>
+      <a href="https://twitter.com">
+        <img src="images/twitter.jpg" alt="Twitter" width="50">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.jpg" alt="Instagram" width="50">
+      </a>
+      <a href="https://github.com/solab59-pro">
+        <img src="images/github.png" alt="Instagram" width="50">
+      </a>
+      </nav>
+      <p class="footer-text">© 2025 Evergreen City Chamber of Commerce. All rights reserved.<br>
+        Last updated: 07/22/2025 10:49:36</p>
+      <!-- <p>&copy; <span id="year"></span> Evergreen City Chamber of Commerce. All rights reserved.</p>
+        <p>Last updated: <span id="last-modified"></span></p> -->
+    </div>
+  </footer>
+
+  <script>
+    // Footer Year and Last Modified Script
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.getElementById("last-modified").textContent = document.lastModified;
+
+    // Highlight current page in nav
+    const currentPage = window.location.pathname.split("/").pop();
+    document.querySelectorAll(".nav-menu a").forEach((link) => {
+      if (link.getAttribute("href") === currentPage) {
+        link.classList.add("active");
+      }
+    });
+  </script>
+</body>
+</html>
