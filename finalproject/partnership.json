@@ -1,49 +1,49 @@
 [
     {
         "title": "Nahco Aviance",
-        "image": "images/aviation1.png",
+        "image": "images/aviation1.webp",
         "address": "11, Ikorodu Road, Lagos",
         "description": "partners since 2012."
     },
     {
         "title": "Ibom Air",
-        "image": "images/aviation2.jpeg",
+        "image": "images/aviation2.webp",
         "address": "Airport Road, Akwa Ibom, Uyo",
         "description": "Partners since 2015."
     },
     {
         "title": "Air Peace",
-        "image": "images/aviation3.png",
+        "image": "images/aviation3.webp",
         "address": "Ikeja, Lagos",
         "description": "Partners since 2014."
     },
     {
         "title": "Palvin Travel Agency",
-        "image": "images/aviation4.jpeg",
+        "image": "images/aviation4.webp",
         "address": "92 Ogunlana drive, Surulere, Lagos",
         "description": "Partners since 2013."
     },
     {
         "title": "Value Jet Aviation Company",
-        "image": "images/aviation5.png",
+        "image": "images/aviation5.webp",
         "address": "Marylane Lagos",
         "description": "Partners since 2016."
     },
     {
         "title": "Eko Hotels and Suit",
-        "image": "images/eko_hotels.jpeg",
+        "image": "images/eko_hotels.webp",
         "address": "Victoria Island Lagos",
         "description": "Partner since 2015."
     },
     {
         "title": "Sheraton Hotel",
-        "image": "images/sheraton.png",
+        "image": "images/sheraton.webp",
         "address": "Sheraton Road, Lagos",
         "description": "Partners since 2018"
     },
     {
         "title": "Nigeria Air",
-        "image": "images/nigeria_air.jpeg",
+        "image": "images/nigeria_air.webp",
         "address": "Ahmadu Bello Way Victoria Island Lagos",
         "description": "Partners since 2015."
     }
