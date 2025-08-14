@@ -8,7 +8,7 @@ const membersContainer = document.querySelector('#members');
 
 // Load and display members from JSON
 function loadMembers() {
-  fetch('chamber/members.json')
+  fetch('finalproject/members.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`Network response was not ok (${response.status})`);
