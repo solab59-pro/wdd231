@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ✅ Use relative path so it works on any device or environment
-  fetch('https://solab59-pro.github.io/wdd231/chamber/discover.json')
+  fetch('https://solab59-pro.github.io/wdd231/chamber/partnership.json')
     .then(response => {
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const daysPassed = Math.floor((now - Number(lastVisit)) / msPerDay);
 
       if (daysPassed === 0) {
-        visitMsgEl.textContent = "✨ Back so soon? Awesome!";
+        visitMsgEl.textContent = "✨ View Our Partners !";
         visitMsgEl.classList.add('soon');
       } else if (daysPassed === 1) {
         visitMsgEl.textContent = "📅 You last visited 1 day ago.";

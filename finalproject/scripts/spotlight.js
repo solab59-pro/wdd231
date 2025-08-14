@@ -2,25 +2,25 @@ const spotlightContainer = document.querySelector('.spotlight-container');
 
 const members = [
   {
-    companyName: "Alpha Marketing Solutions",
-    logo: "images/alpha_marketing.jpeg",  // updated path
-    phone: "(234) 08055818160",
+    GalleryName: "Air Hostess Training",
+    logo: "images/air_hostess.jpeg",  // updated path
+    description: "Intense training on air hostess training to perfection",
     address: "1 Alpha Street, Ikorodu Lagos",
     website: "https://www.alphamarketsolutions.com/",
     membershipLevel: "Gold"
   },
   {
-    companyName: "Beta World With Ai",
-    logo: "images/beta_world_with_ai.jpg",  // updated path
-    phone: "(234) 09058934035",
+    GalleryName: "Class Lecture",
+    logo: "images/class_training.jpg",  // updated path
+    description: "With qualified and certified teachers always availble to lecture student on avaition courses",
     address: "11, Kadiri Street, Coker, Orile, Lagos",
     website: "https://betaworldwithai.com",
     membershipLevel: "Silver"
   },
   {
-    companyName: "Gamma Supermarket And Store ",
-    logo: "images/gamma.jpg",  // updated path
-    phone: "(234) 08036325089",
+    GalleryName: "Pilot Training",
+    logo: "images/pilot.jpeg",  // updated path
+    description: "Guaranteed pilot training at the end of course completion for those interested to become a pilot",
     address: "123 Olodi Apapa Road, Ikeja Lagos",
     website: "https://gammasupermarketandstore.com",
     membershipLevel: "Bronze"
@@ -46,12 +46,9 @@ function displaySpotlights() {
     card.className = 'spotlight-card';
 
     card.innerHTML = `
-      <img src="${member.logo}" alt="${member.companyName} logo">
-      <h3>${member.companyName}</h3>
-      <p><strong>Phone:</strong> ${member.phone}</p>
-      <p><strong>Address:</strong> ${member.address}</p>
-      <p><strong>Website:</strong> <a href="${member.website}" target="_blank" rel="noopener">${member.website}</a></p>
-      <p><strong>Membership Level:</strong> ${member.membershipLevel}</p>
+      <img src="${member.logo}" alt="${member.GalleryName} logo">
+      <h3>${member.GalleryName}</h3>
+      <p><strong>Description:</strong> ${member.description}</p>
     `;
 
     spotlightContainer.appendChild(card);

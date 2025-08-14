@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Enroll and educate student with avaition relation courses and make them professional in their various field.">
+    <meta name="author" content="John Solomon Ekaette">
+    <title>Solab School of Aviation | Register Page</title>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Solab School of Aviation">
+    <meta property="og:description"
+        content="Enroll and educate student with avaition relation courses and make them professional in their various field.">
+    <meta property="og:image" content="https://solab59-pro.github.io/wdd231/finalproject/images/solab_hero_image.png">
+    <meta property="og:url" content="https://solab59-pro.io/wdd231/finalproject/register.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Solab School of Aviation">
+    <meta name="twitter:description"
+        content="Enroll and educate student with avaition relation courses and make them professional in their various field.">
+    <meta name="twitter:image" content="https://solab59-pro.github.io/wdd231/final/images/solab_hero_image.png">
+
+    <link rel="icon" href="images/favicon.png" type="image/png" width="16" height="16">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/register.css">
+
+    <!-- Scripts -->
+    <script src="scripts/scripts.js" defer></script>
+    <script src="scripts/toggleview.js" defer></script>
+    <script src="scripts/script_modal.js" defer></script>
+
+    <meta name="theme-color" content="#3f80ff">
+</head>
+
+<body class="join-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header>
+        <div class="header-container">
+            <!-- Logo and Text -->
+            <div class="header-logo">
+                <img src="images/solab_logo.png" alt="Solab School of Aviation Logo" width="150" height="50"
+                    loading="lazy">
+                <div class="logo-text">
+                    <span class="main-text">Solab School of Aviation</span><br>
+                </div>
+            </div>
+
+            <!-- Hamburger for Mobile -->
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false"
+                aria-controls="primaryNav">
+                ☰
+            </button>
+
+            <nav id="primaryNav" aria-label="Primary navigation" role="navigation">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html" class="active" aria-current="page">Course Registration</a></li>
+                    <li><a href="partnership.html">Our Partnership</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content" tabindex="-1"></main>
+    <h1>Join the Chamber</h1>
+
+    <section class="form-intro">
+        <h1>Register The Course of Your Choice</h1>
+        <p>Fill the form to register a course of your choice and also choose the accomodation type. Please ensure you
+            fill the correct information to ease your admission process.</p>
+    </section>
+
+
+    <div class="container">
+        <form class="join-form" method="get" action="thankyou.html" novalidate="">
+            <label for="firstName">
+                First Name
+                <input type="text" id="firstName" name="firstName" title="Enter your first name"
+                    autocomplete="given-name" required="">
+            </label>
+
+            <label for="lastName">
+                Last Name
+                <input type="text" id="lastName" name="lastName" title="Enter your last name" autocomplete="family-name"
+                    required="">
+            </label>
+
+            <label for="membershipLevel">
+                Accomodation
+                <select id="accomodation" name="accomodation" title="Select your preferred accomodation" required="">
+                    <option value="" disabled="" selected="">Select a level</option>
+                    <option value="in campus">In Campus Accomodation</option>
+                    <option value="off campus">Off Campus Accomodation</option>
+                </select>
+            </label>
+
+            <label for="email">
+                Email Address
+                <input type="email" id="email" name="email" title="Enter your email address" autocomplete="email"
+                    placeholder="example@email.com" required="">
+            </label>
+
+            <label for="mobile">
+                Mobile Phone Number
+                <input type="tel" id="mobile" name="mobile" title="Enter your mobile phone number" autocomplete="tel"
+                    required="">
+            </label>
+
+
+            <label for="courseSelection">
+                Select A Course
+                <select id="courseSelection" name="courseSelection" title="Select your desired course to register"
+                    required="">
+                    <option value="" disabled="" selected="">Select a level</option>
+                    <option value="air Hostess">Air Hostess Training (#100,000)</option>
+                    <option value="Pilot Training">Pilot Training (#200,000)</option>
+                    <option value="Flight Ticketing">Flight Ticketing/Booking (#80,000)</option>
+                    <option value="Receptionist">Hotel Receptionist (#80,000)</option>
+                    <option value="Flight Attendant">Flight Attendant (#80,000)</option>
+                </select>
+            </label>
+
+            <label for="description">
+                Description
+                <textarea id="description" name="description" title="Leave a description below"
+                    rows="4"></textarea>
+            </label>
+
+            <input type="hidden" id="timestamp" name="timestamp" value="2025-07-30T11:28:18.935Z">
+
+            <input type="submit" value="Register A Course" id="submitBtn">
+
+        </form>
+
+        <footer>
+            <div class="social-icons">
+                <nav class="sociallinks"></nav>
+                <a href="https://facebook.com">
+                    <img src="images/facebook.jpg" alt="Facebook" width="50">
+                </a>
+                <a href="https://twitter.com">
+                    <img src="images/twitter.jpg" alt="Twitter" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram.jpg" alt="Instagram" width="50">
+                </a>
+                <a href="https://github.com/solab59-pro">
+                    <img src="images/github.png" alt="Instagram" width="50">
+                </a>
+                </nav>
+                <p class="footer-text">© Solab School of Aviation. All rights reserved.<br>
+                    Last updated: 07/22/2025 10:49:36</p>
+                <!-- <p>&copy; <span id="year"></span> Evergreen City Chamber of Commerce. All rights reserved.</p>
+            <p>Last updated: <span id="last-modified"></span></p> -->
+            </div>
+        </footer>
+        <script>
+            // Footer year and last modified date
+            document.getElementById('year').textContent = new Date().getFullYear();
+            document.getElementById('last-modified').textContent = document.lastModified;
+
+            // Highlight current page nav link
+            const currentPage = window.location.pathname.split('/').pop();
+            document.querySelectorAll('.nav-menu a').forEach(link => {
+                if (link.getAttribute('href') === currentPage) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Set timestamp hidden input value to current date/time
+            const timestampInput = document.getElementById('timestamp');
+            timestampInput.value = new Date().toISOString();
+
+            // Modal functionality
+            const modalLinks = document.querySelectorAll('[data-modal]');
+            const modals = document.querySelectorAll('.modal');
+            const modalCloseButtons = document.querySelectorAll('.modal-close');
+
+            modalLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const modalId = link.getAttribute('data-modal');
+                    const modal = document.getElementById(modalId);
+                    if (modal) {
+                        modal.classList.add('active');
+                        modal.setAttribute('tabindex', '-1');
+                        modal.focus();
+                    }
+                });
+            });
+
+            modalCloseButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const modal = button.closest('.modal');
+                    modal.classList.remove('active');
+                });
+            });
+
+            // Close modal on Escape key
+            window.addEventListener('keydown', (e) => {
+                if (e.key === "Escape") {
+                    modals.forEach(modal => modal.classList.remove('active'));
+                }
+            });
+
+            // Trap focus inside modal while open (basic)
+            modals.forEach(modal => {
+                modal.addEventListener('keydown', (e) => {
+                    if (e.key === 'Tab') {
+                        const focusableElements = modal.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+                        const firstEl = focusableElements[0];
+                        const lastEl = focusableElements[focusableElements.length - 1];
+
+                        if (e.shiftKey) {
+                            if (document.activeElement === firstEl) {
+                                e.preventDefault();
+                                lastEl.focus();
+                            }
+                        } else {
+                            if (document.activeElement === lastEl) {
+                                e.preventDefault();
+                                firstEl.focus();
+                            }
+                        }
+                    }
+                });
+            });
+        </script>
+        <script>
+            // Set timestamp and save form data on submit
+
+            document.addEventListener("DOMContentLoaded", () => {
+                const form = document.querySelector(".join-form");
+                const timestampField = document.getElementById("timestamp");
+
+                form.addEventListener("submit", (event) => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault();
+                        alert("Please fill out all required fields.");
+
+                        // Focus the first invalid field
+                        const firstInvalid = form.querySelector(":invalid");
+                        if (firstInvalid) firstInvalid.reportValidity();
+                        return;
+                    }
+
+                    // Save form data to localStorage
+                    const formData = {
+                        firstName: form.elements["firstName"].value,
+                        lastName: form.elements["lastName"].value,
+                        orgTitle: form.elements["orgTitle"].value,
+                        email: form.elements["email"].value,
+                        mobile: form.elements["mobile"].value,
+                        businessName: form.elements["businessName"].value,
+                        membershipLevel: form.elements["membershipLevel"].value,
+                        businessDesc: form.elements["businessDesc"].value,
+                        timestamp: new Date().toLocaleString()
+                    };
+
+                    timestampField.value = formData.timestamp;
+                    localStorage.setItem("formData", JSON.stringify(formData));
+                });
+            });
+        </script>
+</body>
+
+</html>
